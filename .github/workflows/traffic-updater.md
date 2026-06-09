@@ -4,6 +4,7 @@ description: "Weekly collection of repo traffic data (views and unique visitors)
 on:
   schedule: weekly on monday
   workflow_dispatch:
+  engine: copilot
 tools:
   bash: ["date"]
   edit:
